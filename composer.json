@@ -1,0 +1,20 @@
+{
+    "name": "drupal_recipe/booster_theme",
+    "description": "Sets up Booster (Radix based) theme as the default theme",
+    "type": "drupal-recipe",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "composer/installers": "^2.2",
+        "fivejars/drupal_booster": "1.x-dev",
+        "drupal/bootstrap_layout_builder": "^2.1",
+        "drupal/ckeditor_find": "^2.0@beta",
+        "drupal/ckeditor_font": "^2.0@beta",
+        "drupal/layout_builder_blocks": "^1.1",
+        "drupal/layout_builder_modal": "^1.2",
+        "drupal/layout_builder_styles": "^2.0",
+        "drupal/webform_pardot": "^2.0@beta"
+    },
+    "extra": {
+        "installer-name": "booster_theme"
+    }
+}

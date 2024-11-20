@@ -1,0 +1,29 @@
+name: 'Default theme: Booster (Radix based)'
+description: 'Sets up Booster (Radix based) theme as the default theme.'
+type: 'Themes'
+install:
+  - block
+  - booster_lb
+  - booster_theme
+  - ckeditor_find
+  - ckeditor_font
+  - layout_builder_modal
+  - layout_builder_styles
+  - sdc
+  - serialization
+config:
+  import:
+    block: ~
+    booster_lb: '*'
+    booster_theme: '*'
+    bootstrap_layout_builder: '*'
+    ckeditor_find: '*'
+    ckeditor_font: '*'
+    layout_builder_modal: '*'
+    layout_builder_styles: '*'
+    sdc: '*'
+    serialization: '*'
+  actions:
+    system.theme:
+      simpleConfigUpdate:
+        default: booster_theme
