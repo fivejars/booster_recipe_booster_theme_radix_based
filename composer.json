@@ -5,6 +5,7 @@
     "license": "GPL-2.0-or-later",
     "require": {
         "composer/installers": "^2.2",
+        "fivejars/booster_bootstrap_lb": "1.x-dev",
         "fivejars/drupal_booster": "1.x-dev",
         "drupal/bootstrap_layout_builder": "^2.1",
         "drupal/ckeditor_find": "^2.0@beta",
